@@ -1,4 +1,4 @@
-# FASTA tools for editing and extracting data from fna/faa files you want
+# Bash tools for editing and extracting data from fna/faa files you want
 This repository contains 
 
 ## tools I have in this repository
