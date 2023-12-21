@@ -7,7 +7,9 @@ In bioinformatics, we often need to analyze large size/numbers of FASTA files at
 
 change_headers.sh adds the accession number to the beginning of each header line in the file and outputs the modified FASTA sequence to a new file in a valid FASTA format. 
 
-Synopsis:  "./change_headers.sh <input_file> <output_file>"
+Synopsis:  
+    
+    ./change_headers.sh <input_file> <output_file>
 
 
 
@@ -17,7 +19,9 @@ This Bash script does the following tasks:
 2. Writes only perfect matches to an output file
 3. Prints the number of perfect matches to stdout.
 
-Synopsis: "./find_perfect_matches.sh <query_file> <subject_file> <output_file>" 
+Synopsis: 
+
+    ./find_perfect_matches.sh <query_file> <subject_file> <output_file> 
 
 
 
@@ -31,5 +35,7 @@ find_homologs.sh script does the following tasks:
 3. Output matches to a file with an assigned name
 4. Print the number of matches identified to stdout
 
-Synopsis: ./find_homologs.sh <query_file> <subject_file> <output_file>
+Synopsis: 
+    
+    ./find_homologs.sh <query_file> <subject_file> <output_file>
 
