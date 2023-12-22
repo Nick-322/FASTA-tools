@@ -1,5 +1,5 @@
 # Bash tools for editing and extracting data from fna/faa files
-This repository contains 
+This repository contains four Bash scripts that edit fasta data or extract sequence matches.
 
 ## tools I have in this repository
 ### change_headers.sh:
