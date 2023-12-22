@@ -48,7 +48,7 @@ If you are interested in bacterial environmental responses, you may want to iden
 In a study like the one described above, the process of finding sequence matches to a query of interest in a sequence database is an important primary step to address such
 a gene analysis.
 
-./homolog_identify.sh is a extension of find_homologs.sh script that performs the following: 
+./homolog_identify.sh is an extension of find_homologs.sh script that performs the following: 
 
 1. Identify putative homologous domains (= homologs) of query amino acid sequences in FASTA format (This is the same as what find_homologs.sh does).
 2. Use loops & conditional statements to identify which genes in a BED file contain the identified homologs.
