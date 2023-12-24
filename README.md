@@ -50,9 +50,10 @@ a gene analysis.
 
 ./homolog_identify.sh is an extension of find_homologs.sh script that performs the following: 
 
-1. Identify putative homologous domains (= homologs) of query amino acid sequences in FASTA format (This is the same as what find_homologs.sh does).
-2. Use loops & conditional statements to identify which genes in a BED file contain the identified homologs.
-3. Write an output file containing the unique gene names (from a given BED file) which your script identified as containing predicted domains.
+1. Given a protein sequence query, perform a blast search against a nucleotide subject (This is the same as what find_homologs.sh does).
+2. Identify putative homologous domains (= homologs) of query amino acid sequences in FASTA format (This is the same as what find_homologs.sh does).
+3. Use loops & conditional statements to identify which genes in a BED file contain the identified homologs.
+4. Write an output file containing the unique gene names (from a given BED file) which your script identified as containing predicted domains.
 
 Synopsis:
 
